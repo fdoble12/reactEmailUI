@@ -36,6 +36,7 @@ export const CollapsibleEmail = () => {
             </div>
 
             <div className='tags'>
+                <Tag/>
                 <Tag/> 
             </div>
 
