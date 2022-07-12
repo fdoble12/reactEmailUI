@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+.emailHeaderContainer{
+    box-sizing: border-box;
+
+    width: 1328px;
+    height: 87px;
+    
+    background: #FFFFFF;
+    border: 2px solid #BFBFBF;
+    border-radius: 12px;    
+    margin-top: 24px;
+}
+
+.emailContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    width: 1319px;
+    height: 0px;
+    
+    background: #BFBFBF;
+    border: 1px solid rgba(0, 0, 0, 0.38);
+    margin: 30px;
+}
+
+.header h3{
+    color: #858585;
+}
+
+.emailHeaderItems{
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.dayBox p, .initials p{
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.initials p{
+    margin-top: 10px;
+}
+
+.dayBox{
+    width: 31px;
+    height: 31px;
+    background: #F5F5F5;
+    border: 1px solid #BFBFBF;
+    border-radius: 3px;
+}
+
+.icons{
+    margin-left: 10px;
+}
+
+.initials{
+    width: 31px;
+    height: 31px;
+    background: #858585;
+    border: 1px solid #858585;
+    border-radius: 31px;
+}
+
+.initials p{
+    font-size: large;
+    margin-top: 8px;
+    color: #ffffff;
+}
+
+.emailDetails h3, .emailDetails p{
+    margin: 0px;
+}
+
+.emailDetails p {
+    display: inline;
+    margin-right: 5px;
+}
+
+.emailDetails{
+    margin-left: 30px;
+}
+
+#sender-email{
+    font-size: small;
+    color: #858585;
+}
+
+.tag{
+    width: 114px;
+    height: 21px;
+    background: rgba(55, 112, 164, 0.33);
+    border: 1px solid #3770A4;
+    border-radius: 5px;
+
+}
+
+.tags{
+    margin-left: 700px;
+}
+
+.timeSent{
+    width: 58px;
+    height: 22px;
+    background: rgba(208, 152, 44, 0.29);
+    border-radius: 5px;
+    text-align: center;
+
+    margin-left: 10px;
+}
+
+.timeSentItems{
+    margin-top: 3px;
+    display: inline;
+    font-size: small;
+    color: #D0982C;
+}
+
+.collapsibleContainer{
+    width: 1328px;
+    height: 391px;
+    background: #FFFFFF;
+    border: 2px solid #BFBFBF;
+    border-radius: 12px;
+    margin: 21px;
+}
+
+.senderHeader{
+    margin: 16px;
+    margin-top: 30px;
+}
+
+.senderHeader h3{
+    margin: 0px;
+}
+
+.senderHeader p{
+    margin: 0px;
+}
+
+.senderDetails p{
+    margin: 0px;
+}
+.senderDetails{
+    margin-left: 16px;
+}
+
+.body{
+    margin: 16px;
+}
+
+
+
+
+
+
+
